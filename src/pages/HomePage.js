@@ -14,12 +14,14 @@ const HomePage = () => {
     }, [])
     console.log(meals)
     return (
+        <>
+        <Header />
         <div className={'container'}>
-            <Header />
             <h2>Lorem </h2>
             <ProductList  meals={meals}/>
-            <Footer/>
         </div>
+            <Footer/>
+        </>
     )
 }
 export default HomePage

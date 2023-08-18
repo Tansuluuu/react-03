@@ -1,10 +1,10 @@
 const Footer = () =>{
     return(
-        <div>
+        <footer>
           <a href={'#'}>
             number
           </a>
-        </div>
+        </footer>
     )
 }
 export default Footer
